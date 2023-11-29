@@ -41,9 +41,9 @@ h1 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--color-white);
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 ul {
