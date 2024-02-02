@@ -60,10 +60,6 @@ body *{
     margin-top: 8px;
 }
 
-#profile > p > a{
-    text-decoration: none;
-}
-
 /*switch*/
 #switch{
     position: relative;
