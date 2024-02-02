@@ -26,6 +26,3 @@ Se você quer ter seus links reunidos em um só lugar, esse é o projeto certo p
 
 ![Alt text](./assets/links.png)
 
-## Segue Deploy:
-
-🔗 [Acesse o link](https://mayconrocha21.github.io/My-Links/)
