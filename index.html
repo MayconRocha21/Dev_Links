@@ -1,51 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-br" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/link.png" type="image/x-icon">
     <title>My Links</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
+<body>
+    <div id="container">
+        <div id="profile">
+            <img src="assets/Eu.jpg" alt="Foto de Maycon Rocha" />
+            <p>
+                Maycon Rocha
+            </p>
+        </div>
 
-  <body>
-    <div class="container">
-      <img src="assets/Eu.jpg" alt="Foto de Maycon Rocha" />
-      <h1 class="container_text">Maycon Rocha</h1>
-      <p>Estudante FullStack</p>
+        <div id="switch" onclick="toggleMode()">
+            <button>
+                
+            </button>
+            <span></span>
+        </div>
 
-      <ul>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/maycon-rocha-7b8759164/"
-            target="_blank"
-            >Linkedin</a
-          >
-        </li>
-        <li>
-          <a href="https://github.com/MayconRocha21" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/maycongr/" target="_blank"
-            >Instagram</a
-          >
-        </li>
-        <li>
-          <a href="https://twitter.com/MayconGRocha1" target="_blank"
-            >Twitter</a
-          >
-        </li>
-        <li>
-          <a href="mailto:mgr8272@gmail.com" target="_blank">E-mail</a>
-        </li>
+        <div id="social-links">
+            <a href="https://github.com/MayconRocha21" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/maycongr/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/maycon-rocha-7b8759164/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://twitter.com/MayconGRocha1" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+        </div>
 
-        <li>
-          <a href="https://web.whatsapp.com/send?phone=5562982276751" target="_blank"
-            >whatsApp</a
-          >
-        </li>
-      </ul>
+        <ul>
+            <li>
+                <a href="https://github.com/MayconRocha21" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/maycon-rocha-7b8759164/" target="_blank">Linkedin</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/maycongr/" target="_blank">Instagram</a>
+            </li>
+        </ul>
 
-      <footer>Desenvolvido por Maycon Rocha &copy; 2023</footer>
+        <footer>
+            Desenvolvido por Maycon Rocha &copy; 2023
+        </footer>
     </div>
-  </body>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js"></script>
+</body>
 </html>

@@ -23,7 +23,7 @@ Se você quer ter seus links reunidos em um só lugar, esse é o projeto certo p
 
 ## Veja o projeto finalizado:
 
-![Alt text](image.png)
+![Alt text](./assets/links.png)
 
 ## Segue Deploy:
 
