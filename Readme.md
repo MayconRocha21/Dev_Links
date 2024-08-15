@@ -23,5 +23,5 @@ Se você quer ter seus links reunidos em um só lugar, esse é o projeto certo p
 
 ## Veja o projeto finalizado:
 
-![Alt text](./assets/links.png)
+![Alt text](./assets/Screenshot_1.png)
 
