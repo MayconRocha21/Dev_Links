@@ -55,6 +55,7 @@ p {
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    border-radius: 15px;
 }
 
 .links ul li:hover {
