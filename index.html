@@ -1,59 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Links</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Maycon Rocha, usando uma camiseta de cor vemelha."
+        />
+        <p>Maycon Rocha</p>
+      </div>
 
-<body>
-    <div class="container">
-        <img src="assets/IMG_3501.jpg" alt="Foto de Maycon Rocha vestido com camiseta vermelha e braços cruzados" class="img">
-        <h1>Maycon Rocha</h1>
-        <p>QA Tester</p>
-        
-        <div class="links">
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
 
-            <ul>
-                <li>
-                    <img src="https://img.icons8.com/?size=40&id=447&format=png&color=ffffff" alt="">
-                    <a href="https://www.linkedin.com/in/maycon-rocha-7b8759164/" target="_blank">Linkedin</a>
-                        
-                </li>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/maycon-rocha-7b8759164/">Linkedin</a>
+        </li>
 
-                <li>
-                    <img src="https://img.icons8.com/?size=40&id=AZOZNnY73haj&format=png&color=ffffff" alt="">
-                    <a href="https://github.com/MayconRocha21" target="_blank">Github</a>
-                
-                </li>
+        <li>
+          <a href="https://www.instagram.com/maycongr/">Instagram</a>
+        </li>
 
-                <!-- <li>
-                    <img src="https://img.icons8.com/?size=40&id=16712&format=png&color=ffffff" alt="">
-                    <a href="#" target="_blank">WhatsApp</a>
-                    
-                </li> -->
-                <li>
-                    <img src="https://img.icons8.com/?size=40&id=32292&format=png&color=ffffff" alt="">
-                    <a href="https://www.instagram.com/maycongr/" target="_blank">Instagram</a>
-                </li>
-    
-                <li>
-                    <img src="https://img.icons8.com/?size=40&id=rUgzXdXFnhmg&format=png&color=ffffff" alt="">
-                    <a href="mailto:mgr8272@gmail.com">E-mail</a>
-                </li>
+        <li>
+          <a href="mailto:mgr8272@gmail.com">E-mail</a>
+        </li>
 
-                <li>
-                    <a href="https://mayconrocha21.github.io/my-cv/" target="_blank">Meu CV</a>
-                </li>
-               
-            </ul>
-        </div>
-       
+        <li>
+          <a href="https://github.com/MayconRocha21?tab=repositories" target="_blank"
+            >Meus Projetos</a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/MayconRocha21" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/maycongr/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <!-- <a href="#" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a> -->
+
+        <a href="https://www.linkedin.com/in/maycon-rocha-7b8759164/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="#" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+
+        <a href="#" target="_blank">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+      </div>
+
+      <footer>
+        Desenvolvido por Maycon Rocha &copy; 2024
+      </footer>
     </div>
-    <footer>  Desenvolvido por Maycon Rocha &copy; 2024</footer>
-</body>
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
