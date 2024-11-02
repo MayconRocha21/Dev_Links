@@ -19,9 +19,9 @@ Se você quer ter seus links reunidos em um só lugar, esse é o projeto certo p
 
 - HTML
 - CSS
+- JavaScript
 - Git & Github
 
 ## Veja o projeto finalizado:
 
 ![Alt text](./assets/Screenshot_1.png)
-
