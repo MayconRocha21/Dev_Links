@@ -50,7 +50,7 @@
   #profile img {
    width: 200px;
   height: 220px;
-  border-radius: 50%;   /* transforma em círculo */
+  border-radius: 15%;   /* transforma em círculo */
   object-fit: cover;    /* faz caber certinho sem ultrapassar */
   }
   
